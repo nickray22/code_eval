@@ -1,7 +1,6 @@
 require 'pry'
 
 File.open(ARGV[0]).each_line do |line|
-  binding.pry
   args = line.split
 
   x = args.at(0).to_i
